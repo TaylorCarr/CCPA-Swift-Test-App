@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E1C83CAFC9A0A4A1F2E0D9 /* Pods_DNS_Logging_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A602DCD75C4A12953CC1F3F7 /* Pods_DNS_Logging_SwiftTests.framework */; };
+		0DB0C8963EEA28EC214A0A5E /* Pods_DNS_Logging_Swift_DNS_Logging_SwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A706A7491D1F60359D9EF5A9 /* Pods_DNS_Logging_Swift_DNS_Logging_SwiftUITests.framework */; };
+		6FEB1D377AD0F03F1166BA7D /* Pods_DNS_Logging_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F84B5D63C3D39E7BF6BF153 /* Pods_DNS_Logging_Swift.framework */; };
+		96E4F45523C8FF66008ED957 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E4F45423C8FF66008ED957 /* AppDelegate.swift */; };
+		96E4F45723C8FF66008ED957 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E4F45623C8FF66008ED957 /* SceneDelegate.swift */; };
+		96E4F45923C8FF66008ED957 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E4F45823C8FF66008ED957 /* ContentView.swift */; };
+		96E4F45B23C8FF68008ED957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E4F45A23C8FF68008ED957 /* Assets.xcassets */; };
+		96E4F45E23C8FF68008ED957 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E4F45D23C8FF68008ED957 /* Preview Assets.xcassets */; };
+		96E4F46123C8FF68008ED957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E4F45F23C8FF68008ED957 /* LaunchScreen.storyboard */; };
+		96E4F46C23C8FF68008ED957 /* Firebase_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E4F46B23C8FF68008ED957 /* Firebase_SwiftTests.swift */; };
+		96E4F47723C8FF69008ED957 /* Firebase_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E4F47623C8FF69008ED957 /* Firebase_SwiftUITests.swift */; };
+		96E4F48723C90CE1008ED957 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96E4F48623C90CE1008ED957 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96E4F46823C8FF68008ED957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96E4F44923C8FF66008ED957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96E4F45023C8FF66008ED957;
+			remoteInfo = "Firebase Swift";
+		};
+		96E4F47323C8FF68008ED957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96E4F44923C8FF66008ED957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96E4F45023C8FF66008ED957;
+			remoteInfo = "Firebase Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D1104E8ECB0A3AA4130A40F /* Pods-DNS Logging SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNS Logging SwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-DNS Logging SwiftTests/Pods-DNS Logging SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F84B5D63C3D39E7BF6BF153 /* Pods_DNS_Logging_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DNS_Logging_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49833F238D9E1107ACB914B7 /* Pods-Firebase SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase SwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-Firebase SwiftTests/Pods-Firebase SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		592D3983190B5945E1CE45E2 /* Pods-Firebase Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Swift.debug.xcconfig"; path = "Target Support Files/Pods-Firebase Swift/Pods-Firebase Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		6361705BC2DA8934467FD88E /* Pods-DNS Logging SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNS Logging SwiftTests.release.xcconfig"; path = "Target Support Files/Pods-DNS Logging SwiftTests/Pods-DNS Logging SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		744C5148A8314F60CBFF4D3F /* Pods-Firebase SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase SwiftTests.release.xcconfig"; path = "Target Support Files/Pods-Firebase SwiftTests/Pods-Firebase SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		89F37DA9CE7285DBE4455363 /* Pods-Firebase Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Swift.release.xcconfig"; path = "Target Support Files/Pods-Firebase Swift/Pods-Firebase Swift.release.xcconfig"; sourceTree = "<group>"; };
+		96534CB423D8D8AC00DEBCA9 /* AdjustImport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdjustImport.h; sourceTree = "<group>"; };
+		96E4F45123C8FF66008ED957 /* DNS Logging Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DNS Logging Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96E4F45423C8FF66008ED957 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96E4F45623C8FF66008ED957 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		96E4F45823C8FF66008ED957 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		96E4F45A23C8FF68008ED957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96E4F45D23C8FF68008ED957 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		96E4F46023C8FF68008ED957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96E4F46223C8FF68008ED957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E4F46723C8FF68008ED957 /* DNS Logging SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DNS Logging SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96E4F46B23C8FF68008ED957 /* Firebase_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase_SwiftTests.swift; sourceTree = "<group>"; };
+		96E4F46D23C8FF68008ED957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E4F47223C8FF68008ED957 /* DNS Logging SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DNS Logging SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96E4F47623C8FF69008ED957 /* Firebase_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase_SwiftUITests.swift; sourceTree = "<group>"; };
+		96E4F47823C8FF69008ED957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E4F48623C90CE1008ED957 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9CAE16E578EE926754FF4E95 /* Pods-DNS Logging Swift-DNS Logging SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNS Logging Swift-DNS Logging SwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-DNS Logging Swift-DNS Logging SwiftUITests/Pods-DNS Logging Swift-DNS Logging SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A602DCD75C4A12953CC1F3F7 /* Pods_DNS_Logging_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DNS_Logging_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B2C1395295D030920CA6D2 /* Pods-DNS Logging Swift-DNS Logging SwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNS Logging Swift-DNS Logging SwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-DNS Logging Swift-DNS Logging SwiftUITests/Pods-DNS Logging Swift-DNS Logging SwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A706A7491D1F60359D9EF5A9 /* Pods_DNS_Logging_Swift_DNS_Logging_SwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DNS_Logging_Swift_DNS_Logging_SwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B142E8A616A33979BCDAC371 /* Pods-DNS Logging Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNS Logging Swift.debug.xcconfig"; path = "Target Support Files/Pods-DNS Logging Swift/Pods-DNS Logging Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		B8F3C2673F2419A4D9CA8783 /* Pods-Firebase Swift-Firebase SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Swift-Firebase SwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-Firebase Swift-Firebase SwiftUITests/Pods-Firebase Swift-Firebase SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B905AB2E122573EC64778D0B /* Pods-Firebase Swift-Firebase SwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Swift-Firebase SwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-Firebase Swift-Firebase SwiftUITests/Pods-Firebase Swift-Firebase SwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EAB0D334FD1CE2F859CBA975 /* Pods-DNS Logging Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNS Logging Swift.release.xcconfig"; path = "Target Support Files/Pods-DNS Logging Swift/Pods-DNS Logging Swift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96E4F44E23C8FF66008ED957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FEB1D377AD0F03F1166BA7D /* Pods_DNS_Logging_Swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E4F46423C8FF68008ED957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E1C83CAFC9A0A4A1F2E0D9 /* Pods_DNS_Logging_SwiftTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E4F46F23C8FF68008ED957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB0C8963EEA28EC214A0A5E /* Pods_DNS_Logging_Swift_DNS_Logging_SwiftUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C92745C64FBBBA580DF06E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				592D3983190B5945E1CE45E2 /* Pods-Firebase Swift.debug.xcconfig */,
+				89F37DA9CE7285DBE4455363 /* Pods-Firebase Swift.release.xcconfig */,
+				B905AB2E122573EC64778D0B /* Pods-Firebase Swift-Firebase SwiftUITests.debug.xcconfig */,
+				B8F3C2673F2419A4D9CA8783 /* Pods-Firebase Swift-Firebase SwiftUITests.release.xcconfig */,
+				49833F238D9E1107ACB914B7 /* Pods-Firebase SwiftTests.debug.xcconfig */,
+				744C5148A8314F60CBFF4D3F /* Pods-Firebase SwiftTests.release.xcconfig */,
+				B142E8A616A33979BCDAC371 /* Pods-DNS Logging Swift.debug.xcconfig */,
+				EAB0D334FD1CE2F859CBA975 /* Pods-DNS Logging Swift.release.xcconfig */,
+				A6B2C1395295D030920CA6D2 /* Pods-DNS Logging Swift-DNS Logging SwiftUITests.debug.xcconfig */,
+				9CAE16E578EE926754FF4E95 /* Pods-DNS Logging Swift-DNS Logging SwiftUITests.release.xcconfig */,
+				1D1104E8ECB0A3AA4130A40F /* Pods-DNS Logging SwiftTests.debug.xcconfig */,
+				6361705BC2DA8934467FD88E /* Pods-DNS Logging SwiftTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		96E4F44823C8FF66008ED957 = {
+			isa = PBXGroup;
+			children = (
+				96E4F45323C8FF66008ED957 /* DNS Logging Swift */,
+				96E4F46A23C8FF68008ED957 /* DNS Logging SwiftTests */,
+				96E4F47523C8FF68008ED957 /* DNS Logging SwiftUITests */,
+				96E4F45223C8FF66008ED957 /* Products */,
+				0C92745C64FBBBA580DF06E7 /* Pods */,
+				A8264CA80C5FF3B43EE05A9F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		96E4F45223C8FF66008ED957 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96E4F45123C8FF66008ED957 /* DNS Logging Swift.app */,
+				96E4F46723C8FF68008ED957 /* DNS Logging SwiftTests.xctest */,
+				96E4F47223C8FF68008ED957 /* DNS Logging SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96E4F45323C8FF66008ED957 /* DNS Logging Swift */ = {
+			isa = PBXGroup;
+			children = (
+				96E4F48623C90CE1008ED957 /* GoogleService-Info.plist */,
+				96E4F45423C8FF66008ED957 /* AppDelegate.swift */,
+				96E4F45623C8FF66008ED957 /* SceneDelegate.swift */,
+				96E4F45823C8FF66008ED957 /* ContentView.swift */,
+				96534CB423D8D8AC00DEBCA9 /* AdjustImport.h */,
+				96E4F45A23C8FF68008ED957 /* Assets.xcassets */,
+				96E4F45F23C8FF68008ED957 /* LaunchScreen.storyboard */,
+				96E4F46223C8FF68008ED957 /* Info.plist */,
+				96E4F45C23C8FF68008ED957 /* Preview Content */,
+			);
+			path = "DNS Logging Swift";
+			sourceTree = "<group>";
+		};
+		96E4F45C23C8FF68008ED957 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				96E4F45D23C8FF68008ED957 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		96E4F46A23C8FF68008ED957 /* DNS Logging SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				96E4F46B23C8FF68008ED957 /* Firebase_SwiftTests.swift */,
+				96E4F46D23C8FF68008ED957 /* Info.plist */,
+			);
+			path = "DNS Logging SwiftTests";
+			sourceTree = "<group>";
+		};
+		96E4F47523C8FF68008ED957 /* DNS Logging SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96E4F47623C8FF69008ED957 /* Firebase_SwiftUITests.swift */,
+				96E4F47823C8FF69008ED957 /* Info.plist */,
+			);
+			path = "DNS Logging SwiftUITests";
+			sourceTree = "<group>";
+		};
+		A8264CA80C5FF3B43EE05A9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F84B5D63C3D39E7BF6BF153 /* Pods_DNS_Logging_Swift.framework */,
+				A706A7491D1F60359D9EF5A9 /* Pods_DNS_Logging_Swift_DNS_Logging_SwiftUITests.framework */,
+				A602DCD75C4A12953CC1F3F7 /* Pods_DNS_Logging_SwiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96E4F45023C8FF66008ED957 /* DNS Logging Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96E4F47B23C8FF69008ED957 /* Build configuration list for PBXNativeTarget "DNS Logging Swift" */;
+			buildPhases = (
+				5B0451F349EA5C57660CAF8B /* [CP] Check Pods Manifest.lock */,
+				96E4F44D23C8FF66008ED957 /* Sources */,
+				96E4F44E23C8FF66008ED957 /* Frameworks */,
+				96E4F44F23C8FF66008ED957 /* Resources */,
+				ADEB5AC05C95CF49FDCCB78F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DNS Logging Swift";
+			productName = "Firebase Swift";
+			productReference = 96E4F45123C8FF66008ED957 /* DNS Logging Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96E4F46623C8FF68008ED957 /* DNS Logging SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96E4F47E23C8FF69008ED957 /* Build configuration list for PBXNativeTarget "DNS Logging SwiftTests" */;
+			buildPhases = (
+				E6EA5A3C658463D7ED1FF924 /* [CP] Check Pods Manifest.lock */,
+				96E4F46323C8FF68008ED957 /* Sources */,
+				96E4F46423C8FF68008ED957 /* Frameworks */,
+				96E4F46523C8FF68008ED957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96E4F46923C8FF68008ED957 /* PBXTargetDependency */,
+			);
+			name = "DNS Logging SwiftTests";
+			productName = "Firebase SwiftTests";
+			productReference = 96E4F46723C8FF68008ED957 /* DNS Logging SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96E4F47123C8FF68008ED957 /* DNS Logging SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96E4F48123C8FF69008ED957 /* Build configuration list for PBXNativeTarget "DNS Logging SwiftUITests" */;
+			buildPhases = (
+				F256929A7C733048C064B8A1 /* [CP] Check Pods Manifest.lock */,
+				96E4F46E23C8FF68008ED957 /* Sources */,
+				96E4F46F23C8FF68008ED957 /* Frameworks */,
+				96E4F47023C8FF68008ED957 /* Resources */,
+				7010E1188941DB4516EACC91 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96E4F47423C8FF68008ED957 /* PBXTargetDependency */,
+			);
+			name = "DNS Logging SwiftUITests";
+			productName = "Firebase SwiftUITests";
+			productReference = 96E4F47223C8FF68008ED957 /* DNS Logging SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96E4F44923C8FF66008ED957 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "T Carr";
+				TargetAttributes = {
+					96E4F45023C8FF66008ED957 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					96E4F46623C8FF68008ED957 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 96E4F45023C8FF66008ED957;
+					};
+					96E4F47123C8FF68008ED957 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 96E4F45023C8FF66008ED957;
+					};
+				};
+			};
+			buildConfigurationList = 96E4F44C23C8FF66008ED957 /* Build configuration list for PBXProject "DNS Logging Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96E4F44823C8FF66008ED957;
+			productRefGroup = 96E4F45223C8FF66008ED957 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96E4F45023C8FF66008ED957 /* DNS Logging Swift */,
+				96E4F46623C8FF68008ED957 /* DNS Logging SwiftTests */,
+				96E4F47123C8FF68008ED957 /* DNS Logging SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96E4F44F23C8FF66008ED957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E4F46123C8FF68008ED957 /* LaunchScreen.storyboard in Resources */,
+				96E4F48723C90CE1008ED957 /* GoogleService-Info.plist in Resources */,
+				96E4F45E23C8FF68008ED957 /* Preview Assets.xcassets in Resources */,
+				96E4F45B23C8FF68008ED957 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E4F46523C8FF68008ED957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E4F47023C8FF68008ED957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B0451F349EA5C57660CAF8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DNS Logging Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7010E1188941DB4516EACC91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DNS Logging Swift-DNS Logging SwiftUITests/Pods-DNS Logging Swift-DNS Logging SwiftUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DNS Logging Swift-DNS Logging SwiftUITests/Pods-DNS Logging Swift-DNS Logging SwiftUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DNS Logging Swift-DNS Logging SwiftUITests/Pods-DNS Logging Swift-DNS Logging SwiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADEB5AC05C95CF49FDCCB78F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DNS Logging Swift/Pods-DNS Logging Swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DNS Logging Swift/Pods-DNS Logging Swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DNS Logging Swift/Pods-DNS Logging Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6EA5A3C658463D7ED1FF924 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DNS Logging SwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F256929A7C733048C064B8A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DNS Logging Swift-DNS Logging SwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96E4F44D23C8FF66008ED957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E4F45523C8FF66008ED957 /* AppDelegate.swift in Sources */,
+				96E4F45723C8FF66008ED957 /* SceneDelegate.swift in Sources */,
+				96E4F45923C8FF66008ED957 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E4F46323C8FF68008ED957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E4F46C23C8FF68008ED957 /* Firebase_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E4F46E23C8FF68008ED957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E4F47723C8FF69008ED957 /* Firebase_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96E4F46923C8FF68008ED957 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96E4F45023C8FF66008ED957 /* DNS Logging Swift */;
+			targetProxy = 96E4F46823C8FF68008ED957 /* PBXContainerItemProxy */;
+		};
+		96E4F47423C8FF68008ED957 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96E4F45023C8FF66008ED957 /* DNS Logging Swift */;
+			targetProxy = 96E4F47323C8FF68008ED957 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96E4F45F23C8FF68008ED957 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96E4F46023C8FF68008ED957 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96E4F47923C8FF69008ED957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96E4F47A23C8FF69008ED957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96E4F47C23C8FF69008ED957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B142E8A616A33979BCDAC371 /* Pods-DNS Logging Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DNS Logging Swift/Preview Content\"";
+				DEVELOPMENT_TEAM = N7B25F7NJ8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/DNS Logging Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "capgemini.DNS-Logging-Swift";
+				PRODUCT_NAME = "DNS Logging Swift";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96E4F47D23C8FF69008ED957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAB0D334FD1CE2F859CBA975 /* Pods-DNS Logging Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DNS Logging Swift/Preview Content\"";
+				DEVELOPMENT_TEAM = N7B25F7NJ8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/DNS Logging Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "capgemini.DNS-Logging-Swift";
+				PRODUCT_NAME = "DNS Logging Swift";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		96E4F47F23C8FF69008ED957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D1104E8ECB0A3AA4130A40F /* Pods-DNS Logging SwiftTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N7B25F7NJ8;
+				INFOPLIST_FILE = "Firebase SwiftTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "capgemini.Firebase-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNS Logging Swift.app/DNS Logging Swift";
+			};
+			name = Debug;
+		};
+		96E4F48023C8FF69008ED957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6361705BC2DA8934467FD88E /* Pods-DNS Logging SwiftTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N7B25F7NJ8;
+				INFOPLIST_FILE = "Firebase SwiftTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "capgemini.Firebase-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNS Logging Swift.app/DNS Logging Swift";
+			};
+			name = Release;
+		};
+		96E4F48223C8FF69008ED957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6B2C1395295D030920CA6D2 /* Pods-DNS Logging Swift-DNS Logging SwiftUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N7B25F7NJ8;
+				INFOPLIST_FILE = "Firebase SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "capgemini.Firebase-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Firebase Swift";
+			};
+			name = Debug;
+		};
+		96E4F48323C8FF69008ED957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CAE16E578EE926754FF4E95 /* Pods-DNS Logging Swift-DNS Logging SwiftUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N7B25F7NJ8;
+				INFOPLIST_FILE = "Firebase SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "capgemini.Firebase-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Firebase Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96E4F44C23C8FF66008ED957 /* Build configuration list for PBXProject "DNS Logging Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E4F47923C8FF69008ED957 /* Debug */,
+				96E4F47A23C8FF69008ED957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96E4F47B23C8FF69008ED957 /* Build configuration list for PBXNativeTarget "DNS Logging Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E4F47C23C8FF69008ED957 /* Debug */,
+				96E4F47D23C8FF69008ED957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96E4F47E23C8FF69008ED957 /* Build configuration list for PBXNativeTarget "DNS Logging SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E4F47F23C8FF69008ED957 /* Debug */,
+				96E4F48023C8FF69008ED957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96E4F48123C8FF69008ED957 /* Build configuration list for PBXNativeTarget "DNS Logging SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E4F48223C8FF69008ED957 /* Debug */,
+				96E4F48323C8FF69008ED957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96E4F44923C8FF66008ED957 /* Project object */;
+}
